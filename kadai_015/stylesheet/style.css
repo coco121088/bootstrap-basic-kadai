@@ -277,11 +277,11 @@ p {
 }
 /* ----------------------------------------------- シェフ */
 
-.CHEF::after {
+.section_title.CHEF::after {
    content: "シェフ";
  }
 
-  .CHEF_us_bg {
+  .chef_bg{
    background-color: #fdf5e6;
  }
 
