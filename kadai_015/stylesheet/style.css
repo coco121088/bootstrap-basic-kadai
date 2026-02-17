@@ -19,56 +19,58 @@ p {
 
 }
 
- .section_title {
-   /* フォントサイズ36px */
-   font-size: 36px;
- 
-   /* フォントの太さ600 標準は400です */
-   font-weight: 600;
- }
+.section_title {
+  /* フォントサイズ36px */
+  font-size: 36px;
+
+  /* フォントの太さ600 標準は400です */
+  font-weight: 600;
+}
 
 /* section_titleに擬似要素を追加 */
- .section_title::after {
- 
-   /* 疑似要素はデフォルトでインライン要素のためブロック要素に変更 */
-   display: block;
- 
-   /* サブタイトル文字の大きさや余白を設定 */
-   font-size: 14px;
-   font-weight: 400;
-   padding: 16px 0 16px;
- 
-   /* 下線の幅を100pに設定 */
-   width: 100px;
- 
-   /* 下線を直線・1px・黒色に設定 */
-   border-bottom: solid 1px #000000;
- }
- .section_title {
-   /* フォントサイズ36px */
-   font-size: 36px;
- 
-   /* フォントの太さ600 標準は400です */
-   font-weight: 600;
- }
+.section_title::after {
 
- /* section_titleに擬似要素を追加 */
- .section_title::after {
- 
-   /* 疑似要素はデフォルトでインライン要素のためブロック要素に変更 */
-   display: block;
- 
-   /* サブタイトル文字の大きさや余白を設定 */
-   font-size: 14px;
-   font-weight: 400;
-   padding: 16px 0 16px;
- 
-   /* 下線の幅を100pに設定 */
-   width: 100px;
- 
-   /* 下線を直線・1px・黒色に設定 */
-   border-bottom: solid 1px #000000;
- }
+  /* 疑似要素はデフォルトでインライン要素のためブロック要素に変更 */
+  display: block;
+
+  /* サブタイトル文字の大きさや余白を設定 */
+  font-size: 14px;
+  font-weight: 400;
+  padding: 16px 0 16px;
+
+  /* 下線の幅を100pに設定 */
+  width: 100px;
+
+  /* 下線を直線・1px・黒色に設定 */
+  border-bottom: solid 1px #000000;
+}
+
+.section_title {
+  /* フォントサイズ36px */
+  font-size: 36px;
+
+  /* フォントの太さ600 標準は400です */
+  font-weight: 600;
+}
+
+/* section_titleに擬似要素を追加 */
+.section_title::after {
+
+  /* 疑似要素はデフォルトでインライン要素のためブロック要素に変更 */
+  display: block;
+
+  /* サブタイトル文字の大きさや余白を設定 */
+  font-size: 14px;
+  font-weight: 400;
+  padding: 16px 0 16px;
+
+  /* 下線の幅を100pに設定 */
+  width: 100px;
+
+  /* 下線を直線・1px・黒色に設定 */
+  border-bottom: solid 1px #000000;
+}
+
 /* ----------------------------------------------- ナビゲーションバー */
 .navbar_brand_logo {
 
@@ -131,7 +133,7 @@ p {
 
 /* ----------------------------------------------- カルーセル */
 .my_carousel_caption {
-  
+
   /* フォントサイズ52px */
   font-size: 52px;
 
@@ -184,15 +186,15 @@ p {
 
 
 /* ----------------------------------------------- アバウト */
- 
- /* aboutクラスのあとに"私たちについて"の文字を追加  */
- .about::after {
-   content: "私たちについて";
- }
 
-  .about_us_bg {
-   background-color: #FFE6A5;
- }
+/* aboutクラスのあとに"私たちについて"の文字を追加  */
+.about::after {
+  content: "私たちについて";
+}
+
+.about_us_bg {
+  background-color: #FFE6A5;
+}
 
 
 /* ----------------------------------------------- ギャラリー */
@@ -219,6 +221,7 @@ p {
   font-weight: 400;
   font-family: 'Lora', serif;
 }
+
 /* ----------------------------------------------- ナビゲーションメニュー */
 
 
@@ -264,26 +267,26 @@ p {
   height: 25px;
 }
 
-* 詳細ボタンを下部に固定 */
-.fix_bottom {
-/* positionプロパティで絶対配置 */
+* 詳細ボタンを下部に固定 */ .fix_bottom {
+  /* positionプロパティで絶対配置 */
   position: absolute;
-/* ボタンのサイズ変更 */
+  /* ボタンのサイズ変更 */
   width: 80px;
   height: 44px;
-/* 左から24px、下から24pxの位置に配置 */
+  /* 左から24px、下から24pxの位置に配置 */
   left: 24px;
   bottom: 24px;
 }
+
 /* ----------------------------------------------- シェフ */
 
-.section_title.CHEF::after {
-   content: "シェフ";
- }
+.section_title.chef::after {
+  content: "シェフ";
+}
 
-  .chef_bg{
-   background-color: #fdf5e6;
- }
+.chef_bg {
+  background-color: #fdf5e6;
+}
 
 
 /* ----------------------------------------------- アクセス */
@@ -329,6 +332,7 @@ p {
   margin-right: 10px;
   margin-top: 0;
 }
+
 /* restaurant_info直下の子要素pタグ全てに適用される */
 .restaurant_info p {
   font-weight: 400;
@@ -344,6 +348,7 @@ p {
   line-height: 1.5;
   margin-top: auto;
 }
+
 /* サイトアイコンを64pxに設定 */
 .footer_brand_logo {
   width: 64px;
@@ -358,8 +363,10 @@ p {
   font-size: 24px;
   font-family: 'Lora', serif;
 }
+
 /* スマートフォン画面幅（最大991pxまで）でスタイルを適用 */
 @media screen and (max-width: 991px) {
+
   .footer_text,
   .copy_right {
     margin-top: 2rem;
@@ -367,7 +374,8 @@ p {
     position: relative;
   }
 
-  .copy_right>p,img {
+  .copy_right>p,
+  img {
     margin-right: 1rem;
     font-size: 14px;
     margin: 0;
